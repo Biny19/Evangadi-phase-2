@@ -16,11 +16,11 @@ function list_ofConsecutiveIntegers(n) {
         console.log("Please enter a number");
     }
     else
-    for (let i = n; i <= n + 5; i++) {
-        console.log(i);
+    for (let i = n; i < n + 5; i++) {
+        console.log(i + 1);
     }
 }
-list_ofConsecutiveIntegers(5);
+list_ofConsecutiveIntegers(7);
 
 // Question 3
 // Write a function that takes a single number and prints the sum of the next 10 numbers after the
